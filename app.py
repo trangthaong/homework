@@ -1,6 +1,12 @@
 import streamlit as st
 import pickle
 from sklearn.datasets import load_iris
+import pandas as pd
+import sklearn.datasets
+import sklearn.model_selection
+import sklearn.preprocessing
+import sklearn.linear_model
+import streamlit as st
 
 iris = load_iris()
 
